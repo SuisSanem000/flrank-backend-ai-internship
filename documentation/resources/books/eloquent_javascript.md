@@ -3,16 +3,44 @@
 **Author:** Marijn Haverbeke
 
 ## Overview
-*Eloquent JavaScript* is a highly regarded, comprehensive guide to learning programming through the lens of JavaScript. It spans from the absolute basics of programming to advanced web development concepts, blending theory with interactive coding exercises. It is known for its depth and its focus on writing clean, elegant ("eloquent") code.
+*Eloquent JavaScript* is a comprehensive guide to learning programming through the lens of JavaScript. It spans from the absolute basics of programming to advanced web development concepts, blending theory with highly interactive coding exercises. It is structured into three main parts: **Language**, **Browser**, and **Node.js**.
 
-## Key Themes and Structure
+---
 
-*   **Language Fundamentals:** The book starts with the core building blocks of JavaScript: values, types, variables, control flow (loops and conditionals), and functions. It builds a strong foundation before moving to complex topics.
-*   **Data Structures and Objects:** It deeply explores arrays, objects, and the prototype-based object-oriented nature of JavaScript. It teaches how to structure data effectively.
-*   **Higher-Order Functions & Functional Programming:** A standout feature of the book is its emphasis on functional programming. It teaches how to use functions that operate on other functions (like `map`, `filter`, and `reduce`) to write more expressive and concise code.
-*   **The Browser and the DOM:** The book transitions from pure JavaScript to how JS interacts with the web browser. It covers the Document Object Model (DOM), how to manipulate HTML elements, and how to handle user events (clicks, keypresses).
-*   **Asynchronous Programming:** It tackles one of JavaScript's most notoriously difficult topics: handling operations that take time (like fetching data from a server). It covers callbacks, Promises, and the modern `async/await` syntax.
-*   **Node.js:** The book concludes by exploring JavaScript outside the browser, introducing Node.js for backend development, file system manipulation, and building simple web servers.
+## Part I: Language (Fundamentals & Data)
+This section focuses entirely on the core logic and syntax of JavaScript programming, independent of any web browser.
 
-## Why it matters
-Unlike many introductory tutorials that just teach syntax, *Eloquent JavaScript* teaches you *how to think* like a programmer. It challenges readers with complex projects (like building a programming language parser or a pixel art editor) to cement the concepts.
+*   **Chapter 1: Values, Types, and Operators:** Introduces the basic building blocks: numbers, strings, booleans, and logical operators.
+*   **Chapter 2: Program Structure:** Covers the flow of execution, including loops (`while`, `for`), variable bindings, and conditional statements (`if`, `switch`).
+*   **Chapter 3: Functions:** Explains how to define and use functions, diving deep into lexical scope, closures, and recursion.
+*   **Chapter 4: Data Structures (Objects and Arrays):** Details how to group data using arrays and objects to create complex structures, and introduces concepts like mutability.
+*   **Chapter 5: Higher-Order Functions:** A crucial chapter focusing on functional programming. It teaches how to use functions that operate on other functions (e.g., `map`, `filter`, `reduce`) to abstract away complex loop logic into elegant, readable chains.
+*   **Chapter 6: The Secret Life of Objects:** Explains object-oriented programming in JavaScript, covering prototypes, the `class` syntax, getters/setters, and inheritance.
+*   **Chapter 7: Project - A Robot:** A practical application chapter where the reader builds an automated delivery robot to solidify the concepts learned so far.
+*   **Chapter 8: Bugs and Errors:** Teaches how to handle errors gracefully, use `try/catch` blocks, and effective debugging strategies.
+*   **Chapter 9: Regular Expressions:** Introduces powerful pattern matching for text processing and validation.
+*   **Chapter 10: Modules:** Covers how to structure larger programs by breaking them into smaller, isolated, and manageable files (CommonJS and ES Modules).
+*   **Chapter 11: Asynchronous Programming:** Tackles one of JS's hardest topics: handling tasks that take time (like network requests). It moves from callbacks to Promises, and finally to modern `async/await` syntax.
+*   **Chapter 12: Project - A Programming Language:** A complex capstone for Part I where the reader writes an interpreter for their own custom programming language.
+
+---
+
+## Part II: Browser (The Web Environment)
+This section shifts to how JavaScript interacts with and manipulates web browsers.
+
+*   **Chapter 13: JavaScript and the Browser:** An introduction to the specific environment where web-based JavaScript runs.
+*   **Chapter 14: The Document Object Model (DOM):** Explains how to manipulate HTML elements, change CSS styles dynamically, and interact with the physical structure of a webpage.
+*   **Chapter 15: Handling Events:** Teaches how to capture and respond to user interactions (clicks, keypresses, scrolls) and the concept of event propagation/bubbling.
+*   **Chapter 16: Project - A Platform Game:** Applying DOM and Event knowledge to build an interactive, running-and-jumping platformer game in the browser.
+*   **Chapter 17: Drawing on Canvas:** How to use the `<canvas>` API for rendering complex graphics and animations.
+*   **Chapter 18: HTTP and Forms:** Fetching data from the internet using `fetch()` and managing form submissions securely.
+
+---
+
+## Part III: Node.js (Server-Side JS)
+The final section moves JavaScript out of the browser and onto the server.
+
+*   **Chapter 20: Node.js:** Covers how to use JavaScript to interact with the underlying operating system, read/write to the file system, and build simple, efficient backend web servers and command-line tools.
+*   **Chapter 21: Project - Skill-Sharing Website:** A final full-stack project utilizing Node.js to build a dynamic server that handles routing, data storage, and client polling.
+
+*(Note: The book is freely available online at eloquentjavascript.net with interactive code sandboxes).*
