@@ -31,15 +31,19 @@ The server will start at `http://127.0.0.1:8000`.
 
 ### 3. Test the Endpoints
 
-**Test via Browser (GET request)**
+**Test the `/health` Endpoint (GET request via Browser)**
 Navigate to: [http://127.0.0.1:8000/health](http://127.0.0.1:8000/health)
 
-**Test via cURL (POST request)**
+**Test the `/echo` Endpoint (POST request via Terminal)**
 Open another terminal window and run:
+**For Mac/Linux (Bash):**
 ```bash
-curl -X POST "http://127.0.0.1:8000/echo" \
-     -H "Content-Type: application/json" \
-     -d '{"message": "Hello from curl!"}'
+curl -X POST "http://127.0.0.1:8000/echo" -H "Content-Type: application/json" -d '{"message": "Hello from curl!"}'
+```
+
+**For Windows (PowerShell):**
+```powershell
+Invoke-RestMethod -Uri "http://127.0.0.1:8000/echo" -Method Post -Headers @{"Content-Type"="application/json"} -Body '{"message": "Hello from PowerShell!"}'
 ```
 You should receive a JSON response with your message!
 
