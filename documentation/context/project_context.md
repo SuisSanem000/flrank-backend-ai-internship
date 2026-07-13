@@ -25,3 +25,5 @@ This repository (`flrank-backend-ai-internship`) contains assignments and docume
 - **Explain thoroughly:** When modifying or writing code, provide detailed explanations or line-by-line comments to explain exactly what each package and function does.
 - **Cross-platform awareness:** Always account for Windows/PowerShell quirks (like the `curl` alias and JSON escaping) when providing terminal commands. 
 - **Repository hygiene:** Never commit `.pyc` files, `__pycache__`, or sensitive API keys.
+- **Language Requirements:** Always implement a TypeScript equivalent for all assignments.
+- **Package Manager:** Always use `pnpm` exclusively for Node.js/TypeScript projects (never `npm` or `yarn`).
