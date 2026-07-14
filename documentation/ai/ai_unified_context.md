@@ -18,35 +18,29 @@ This repository (`flrank-backend-ai-internship`) contains assignments and docume
 ### AI Partner Instructions (Style & Preferences)
 - **Keep it minimal:** Follow the program's philosophy of avoiding overthinking (e.g., building the smallest possible backend first).
 - **Explain thoroughly (Inline):** Do not put detailed code explanations in the README. Code explanation should *only* be above each line of code as a comment. 
-- **README Documentation:** For each assignment, the README must contain a general, step-by-step explanation of what was accomplished and the approach taken, without diving into specific code syntax.
+- **README Documentation:** For each assignment, the README must contain a summarized yet detailed enough explanation of what the assignment is (based on our chat), the date it was implemented, and a direct link to it. Update the README of the assignment with this information derived directly from our chat interaction.
 - **Cross-platform awareness:** Always account for Windows/PowerShell quirks (like the `curl` alias and JSON escaping) when providing terminal commands. 
 - **Repository hygiene:** Never commit `.pyc` files, `__pycache__`, or sensitive API keys.
 - **Language Requirements:** Always implement a TypeScript equivalent for all assignments alongside the Python version.
 - **Package Manager:** Always use `pnpm` exclusively for Node.js/TypeScript projects (never `npm` or `yarn`).
 
-### Assignment Completion Steps
-- **Root Index Dashboard:** Upon completing each assignment, you MUST update the root `README.md` file. Add a new row to the markdown table containing headers `| Assignment # | Topic | Description | Link |` for the newly completed assignment. Ensure the link points directly to the assignment folder (e.g., `./assignments/02-ai-workflow`).
+---
+
+## 2. Assignment Workflow & Completion Checklist
+
+### 🚀 Start Assignment Prompt (How We Work)
+1. **User Setup:** The user will always manually create the new assignment folder appropriately nested (e.g., inside `week 1`, `week 2`, etc.).
+2. **Spec Delivery:** The user will manually add a `README.md` inside that new folder containing the precise assignment specifications.
+3. **Kickoff:** The user will explicitly tell the AI in the chat which assignment to work on next. The AI should read the specs and begin implementation *only* after this kickoff.
+
+### ✅ Assignment Completion Steps
+- **Root Index Dashboard:** Upon completing each assignment, you MUST update the root `README.md` file. Add a new row to the markdown index table containing headers `| Assignment # | Topic | Description | Link |` for the newly completed assignment. Ensure the relative link accurately reflects the week nesting (e.g., `./assignments/week 1/02-ai-workflow-audit-and-tool-setup`).
 
 ---
 
-## 2. Session Summary & Progress (July 13, 2026)
+## 3. Current Repository State
 
-### Backend Basics (Assignment 01)
-*   **Python/FastAPI:** Implemented the smallest possible backend with a `GET /health` and `POST /echo` endpoint. Configured a `requirements.txt` and `README.md` with testing instructions.
-*   **TypeScript/NestJS:** Created an exact equivalent of the Python backend in a `typescript-version` subfolder. Built the entire NestJS app inside a single `main.ts` file (~25 lines). Fixed decorator compilation issues by properly configuring a `tsconfig.json`.
-
-### Environment & Tooling
-*   **IDE Setup:** Resolved a VS Code / Cursor issue where the IDE was pointing to a Python installation directory rather than the exact `python.exe` executable.
-*   **Git Hygiene:** Configured `.gitignore` to prevent committing compiled Python files (`__pycache__`, `*.pyc`) and Node.js dependencies (`node_modules`, `package-lock.json`). 
-
-### Documentation & Research
-*   **Book Summaries:** Searched the web and generated thorough, chapter-by-chapter summaries of four foundational books inside `documentation/resources/books`:
-    *   *Clean Code & Clean Architecture* (Robert C. Martin)
-    *   *The Pragmatic Programmer* (Andrew Hunt & David Thomas)
-    *   *Eloquent JavaScript* (Marijn Haverbeke)
-    *   *Designing Data-Intensive Applications* (Martin Kleppmann)
-
-### Testing & Verification
-*   Verified both the Python (Port 8000) and TypeScript (Port 8001) backends locally.
-*   Tested the endpoints via `curl` and PowerShell's `Invoke-RestMethod`.
-*   Ran a browser agent to record a video navigating to both servers to visually confirm the `{"status":"ok"}` responses.
+*   **Current Week:** Week 1
+*   **Last Implemented Assignment:** `01-backend-basics` (Completed in Python and TypeScript)
+*   **Week 1 Status:** **In Progress** (Week 1 has two pending assignments).
+*   **AI State Checking Rule:** To independently verify if a week is finished, the AI should inspect the manually created assignment folders for that specific week. If a folder only contains the initial specification `README.md`, the assignment is pending. If it contains actual code/implementation files, it is completed.
