@@ -39,5 +39,5 @@ When instructed to start an assignment, you MUST follow these exact rules for im
 
 ## 4. Current State
 - **Current Progress:** We are in Week 1. 
-- **Completed:** Assignment `01-backend-basics`.
-- **Up Next:** Week 1 has pending assignments to be started upon the user's explicit command.
+- **Completed:** Assignment `01-backend-basics` AND `02-ai-workflow-audit-and-tool-setup`.
+- **Up Next:** Week 1 has one more pending assignment to be started upon the user's explicit command.

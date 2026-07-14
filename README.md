@@ -7,7 +7,7 @@ Assignment tracking and progress dashboard for backend development internship at
 | Assignment # | Topic | Description | Link |
 |---|---|---|---|
 | 01 | Backend Basics | Build the smallest possible backend with two JSON endpoints to test the request-response loop | [Assignment 01](./assignments/01-backend-basics) |
-| 02 | Database Integration | TBD | [Assignment 02](./assignments/02-database-integration) |
+| 02 | AI Workflow Audit | Map and classify 10-15 real-world recurring tasks and define 3 target tasks with success metrics | [Assignment 02](./assignments/week 1/02-ai-workflow-audit-and-tool-setup) |
 | 03 | Authentication & Authorization | TBD | [Assignment 03](./assignments/03-auth) |
 | 04 | API Best Practices | TBD | [Assignment 04](./assignments/04-api-practices) |
 | 05 | Deployment & DevOps | TBD | [Assignment 05](./assignments/05-deployment) |

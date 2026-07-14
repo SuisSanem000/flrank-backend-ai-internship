@@ -1,26 +1,44 @@
 # Assignment FL-01: AI Workflow Audit
 
-## Step-by-Step General Implementation Plan
+## Original Assignment Specifications
+https://internship.flyrank.ai/intern/assignments/FL-01
 
-This document outlines the general strategy for how we will approach and solve the FL-01 assignment. As per the project guidelines, no code-level explanations are included here; all code logic will be thoroughly documented via inline comments within the Python scripts themselves.
+Details
+Phase: Setup | Estimated hours: 4
 
-### Step 1: Mapping the Workflow via Python Automation
-Although this is fundamentally an auditing and classification task, we will fulfill the requirement to implement it using Python. We will write a Python script that mathematically models and generates the required 10-15 recurring tasks from a developer's real week. 
-The script will output a clean, formatted Markdown table classifying each task into one of four categories:
-1.  **Just me** (with explicit rationale on why AI is excluded)
-2.  **Delegate to AI with review**
-3.  **Collaborate with AI**
-4.  **Fully automate**
+Why it matters: You cannot improve a workflow you have never mapped. Knowing where AI helps, where it wastes your time, and where it should never be trusted is the core fluency skill; everything else builds on this audit.
 
-### Step 2: Defining the Target "Audit Tasks"
-The Python script will explicitly isolate three specific tasks that will be reused in future assignments (FL-02 through FL-04). For each of these three target tasks, the script will programmatically define and print what "done well" means, ensuring we have measurable success metrics moving forward.
+Brief:
+List 10 to 15 recurring tasks from your real week (study, work, side projects). Classify each: just me, delegate to AI with review, collaborate with AI, or fully automate. One line of rationale per task.
+Set up your free toolkit: Claude, ChatGPT, and Anthropic Academy accounts. Enroll in AI Fluency: Framework & Foundations and complete at least the first module.
+Create one Claude Project with custom instructions: who you are, tone preferences, current goals.
+Pick the three audit tasks you will reuse in FL-02 through FL-04, and define what "done well" means for each.
+Deliverable: A 1 to 2 page workflow audit (table format), a screenshot of your configured Claude Project, and your three target tasks with success definitions.
 
-### Step 3: Evidencing Tool Setup and Enrollments
-We will ensure that the required free toolkit accounts are set up and evidenced:
-*   **Claude Project:** Creating a project with custom instructions (who you are, tone preferences, current goals). We will need to capture a screenshot of this setup.
-*   **Anthropic Academy:** Registering and completing the first module of "AI Fluency: Framework & Foundations."
+Evaluation criteria (pass/revise):
+- 10+ tasks are genuinely yours, not generic examples
+- Every task classified with a one-line rationale
+- At least two tasks honestly marked "just me" with a reason
+- Three target tasks are specific with measurable success definitions
+- Tool accounts and Academy enrollment evidenced
 
-### Step 4: Final Deliverables Generation
-The final output of our Python execution will be a fully compliant 1 to 2-page workflow audit. Once the script runs and generates the data, we will combine it with the required Claude Project screenshots to complete the assignment deliverables.
+---
 
-*(Note: The actual execution of these steps and the creation of the Python/TypeScript files are currently paused pending your review of this approach, as requested).*
+## Assignment Summary (Derived from Specs)
+**Topic:** AI Workflow Audit & Tool Setup (FL-01)
+**Date Implemented:** July 14, 2026
+**Implementation Link:** `./02-ai-workflow-audit-and-tool-setup`
+
+**What we are doing:** We are mapping out 10 to 15 real-world recurring tasks (study, work, coding) and classifying how AI should be involved in them (Just Me, Delegate, Collaborate, Automate). We must pick 3 target tasks with measurable success metrics to reuse in future assignments. We also need to evidence that we have set up Claude, ChatGPT, and enrolled in the Anthropic Academy. 
+*Note: Because our strict project rule dictates we must do all assignments in Python (with a TypeScript equivalent), we will write a script that generates this audit table and the target tasks programmatically.*
+
+---
+
+## Step-by-Step Implementation Guide
+*(To be updated as implementation progresses)*
+
+**Step 1:** Create `audit_generator.py` to programmatically define the 15 tasks, their classifications, and rationales, and output them as a formatted Markdown table.
+**Step 2:** Define the 3 target tasks with "done well" metrics inside the script.
+**Step 3:** Implement the TypeScript equivalent (`auditGenerator.ts`) inside a `typescript-version` subfolder using `pnpm`.
+**Step 4:** Execute the scripts to generate the final 1-to-2 page workflow audit.
+**Step 5:** Note on Tool Setup: Setting up Claude, ChatGPT, and Anthropic Academy accounts is a manual user task. (I will request the user to provide screenshots of these to satisfy the deliverable).
