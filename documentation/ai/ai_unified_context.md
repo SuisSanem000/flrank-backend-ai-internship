@@ -17,11 +17,15 @@ This repository (`flrank-backend-ai-internship`) contains assignments and docume
 
 ### AI Partner Instructions (Style & Preferences)
 - **Keep it minimal:** Follow the program's philosophy of avoiding overthinking (e.g., building the smallest possible backend first).
-- **Explain thoroughly:** When modifying or writing code, provide detailed explanations or line-by-line comments to explain exactly what each package and function does.
+- **Explain thoroughly (Inline):** Do not put detailed code explanations in the README. Code explanation should *only* be above each line of code as a comment. 
+- **README Documentation:** For each assignment, the README must contain a general, step-by-step explanation of what was accomplished and the approach taken, without diving into specific code syntax.
 - **Cross-platform awareness:** Always account for Windows/PowerShell quirks (like the `curl` alias and JSON escaping) when providing terminal commands. 
 - **Repository hygiene:** Never commit `.pyc` files, `__pycache__`, or sensitive API keys.
 - **Language Requirements:** Always implement a TypeScript equivalent for all assignments alongside the Python version.
 - **Package Manager:** Always use `pnpm` exclusively for Node.js/TypeScript projects (never `npm` or `yarn`).
+
+### Assignment Completion Steps
+- **Root Index Dashboard:** Upon completing each assignment, you MUST update the root `README.md` file. Add a new row to the markdown table containing headers `| Assignment # | Topic | Description | Link |` for the newly completed assignment. Ensure the link points directly to the assignment folder (e.g., `./assignments/02-ai-workflow`).
 
 ---
 
